@@ -1,45 +1,27 @@
-# Laravel 8 Appointments System demo
+# AYU Laravel interview repo
 
-Simple project to manage appointments for companies like beauty salon, medical clinic or car repair shop.
+This is a simple example project to manage appointments for companies.
 
-You can manage your Services, Employees, Clients and Appointments, viewing them in a calendar.
+It was not built by AYU, it's forked from https://github.com/LaravelDaily/Laravel-Appointments
 
-![Laravel Appointments calendar](https://laraveldaily.com/wp-content/uploads/2019/09/laravel-appointments-calendar.png)
+We're going to use it to play around with adding features to an existing codebase. The only reason we've chosen this one is that it's a little repo that's easy to set up.
 
-![Laravel Appointments form](https://laraveldaily.com/wp-content/uploads/2019/09/laravel-appointments-form.png)
+## Before your interview
 
----
+Before your interview, clone the repo and get it set up so we can write some code.
 
-System is mostly generated with [QuickAdminPanel](https://2019.quickadminpanel.com), with some small tweaks afterwards.
+-   Clone the repository with **git clone**
+-   Run **composer install**
+-   Run **php artisan key:generate**
+-   Run **php artisan migrate --seed** (it has some seeded data for your testing)
+-   Run **php artisan serve**
+-   Your app should now be running at http://127.0.0.1:8000 (or some other port if you've got other sites running)
+-   You can login to adminpanel with default credentials __admin@admin.com__ - **password**
 
-Other assets used:
+That's it, you're ready for your interview. You may want to poke around the app a little bit to understand the structure before we start, but this little app wasn't built by AYU, and we aren't going to use it beyond the interview, so don't spend any more time than absolutely necessary!
 
-- [CoreUI Free theme](https://coreui.io/demo/#main.html) (Bootstrap 4)
-- [FullCalendar library](https://fullcalendar.io/) (version 3)
+## During your interview
 
-
----
-
-## How to use
-
-- Clone the repository with __git clone__
-- Copy __.env.example__ file to __.env__ and edit database credentials there
-- Run __composer install__
-- Run __php artisan key:generate__
-- Run __php artisan migrate --seed__ (it has some seeded data for your testing)
-- That's it: launch the main URL. 
-- You can login to adminpanel with default credentials __admin@admin.com__ - __password__
-
-## License
-
-Basically, feel free to use and re-use any way you want.
-
----
-
-## More from our LaravelDaily Team
-
-- Check out our adminpanel generator [QuickAdminPanel](https://quickadminpanel.com)
-- Read our [Blog with Laravel Tutorials](https://laraveldaily.com)
-- FREE E-book: [50 Laravel Quick Tips (and counting)](https://laraveldaily.com/free-e-book-40-laravel-quick-tips-and-counting/)
-- Subscribe to our [YouTube channel Laravel Business](https://www.youtube.com/channel/UCTuplgOBi6tJIlesIboymGA)
-- Enroll in our [Laravel Online Courses](https://laraveldaily.teachable.com/)
+-   5~10 minutes: We're going to discuss a change that we'd like to make to this app
+-   30~35 minutes: We'll implement that change in the quickest, simplest way we can
+-   20 miutes: We'll discuss other ways to implement this change, and long-term considerations of the different options
