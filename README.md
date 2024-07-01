@@ -24,4 +24,4 @@ That's it, you're ready for your interview. You may want to poke around the app 
 
 -   5~10 minutes: We're going to discuss a change that we'd like to make to this app
 -   30~35 minutes: We'll implement that change in the quickest, simplest way we can
--   20 miutes: We'll discuss other ways to implement this change, and long-term considerations of the different options
+-   20 minutes: We'll discuss other ways to implement this change, and long-term considerations of the different options
