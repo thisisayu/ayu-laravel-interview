@@ -6,7 +6,7 @@ It was not built by AYU, it's forked from https://github.com/LaravelDaily/Larave
 
 We're going to use it to play around with adding features to an existing codebase. The only reason we've chosen this one is that it's a little repo that's easy to set up.
 
-## Before your interview
+## Before your interview
 
 Before your interview, clone the repo and get it set up so we can write some code.
 
