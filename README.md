@@ -16,7 +16,7 @@ Before your interview, clone the repo and get it set up so we can write some cod
 -   Run **php artisan migrate --seed** (it has some seeded data for your testing)
 -   Run **php artisan serve**
 -   Your app should now be running at http://127.0.0.1:8000 (or some other port if you've got other sites running)
--   You can login to adminpanel with default credentials __admin@admin.com__ - **password**
+-   You can log in using __admin@admin.com__ - **password**
 
 That's it, you're ready for your interview. You may want to poke around the app a little bit to understand the structure before we start, but this little app wasn't built by AYU, and we aren't going to use it beyond the interview, so don't spend any more time than absolutely necessary!
 
